@@ -1,4 +1,4 @@
-/* ================ GLOBAL STYLES & RESET ================ */
+/*GLOBAL STYLES*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 
@@ -27,7 +27,7 @@ body {
   flex-direction: column;
 }
 
-/* ================ LAYOUT STRUCTURE ================ */
+/*LAYOUT STRUCTURE*/
 .main-layout {
   flex: 1;
   display: flex;
@@ -47,7 +47,7 @@ body {
   width: 100%;
 }
 
-/* ================ HEADER STYLES ================ */
+/*HEADER STYLES*/
 header {
   background-color: white;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -100,7 +100,7 @@ header {
   height: auto;
 }
 
-/* ================ MENU PAGE STYLES (UPDATED) ================ */
+/*MENU PAGE*/
 .menu-header, .order-header {
   display: flex;
   justify-content: space-between;
@@ -228,7 +228,7 @@ header {
   transform: translateY(-2px);
 }
 
-/* ================ ORDER PAGE STYLES (UPDATED) ================ */
+/*ORDER PAGE*/
 .cart-item {
   display: flex;
   justify-content: space-between;
@@ -307,8 +307,7 @@ header {
   transform: scale(1.1);
 }
 
-/* ================ HERO SECTION ================ */
-/* ================ HERO SECTION ================ */
+/*HERO SECTION*/
 .hero-container {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
               url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');
@@ -378,7 +377,7 @@ header {
     font-size: 1rem;
   }
 }
-/* ================ ABOUT US SECTION ================ */
+/*ABOUT US*/
 .about-us {
   padding: 100px 0;
   background: linear-gradient(135deg, #f9f9f9 0%, #f0f0f0 100%);
@@ -559,7 +558,7 @@ header {
   z-index: 0;
 }
 
-/* ================ CART FOOTER STYLES ================ */
+/*FOOTER*/
 .cart-footer {
   position: fixed;
   bottom: 0;
@@ -605,7 +604,7 @@ header {
   background-color: #2f855a;
 }
 
-/* ================ CHECKOUT FORM STYLES ================ */
+/*CHECKOUT FORM*/
 .checkout-form {
   padding: 1.5rem;
   border: 1px solid #e2e8f0;
@@ -676,7 +675,7 @@ header {
   background-color: #e63e4d;
 }
 
-/* ================ ORDER SUCCESS STYLES ================ */
+/*ORDER SUCCESS*/
 .order-success {
   text-align: center;
   padding: 3rem 1rem;
@@ -712,7 +711,7 @@ header {
   background-color: #2c5282;
 }
 
-/* ================ FOOTER STYLES ================ */
+/*FOOTER */
 footer {
   background-color: #2f3542;
   color: white;
@@ -810,7 +809,7 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* ================ UTILITY CLASSES ================ */
+/**/
 .text-center {
   text-align: center;
 }
@@ -832,7 +831,7 @@ footer {
   font-weight: bold;
 }
 
-/* ================ MEDIA QUERIES ================ */
+/*MEDIA*/
 @media (max-width: 1200px) {
   .header-content h1 {
     margin-right: 100px;
@@ -912,7 +911,7 @@ footer {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
   
-  /* Added for menu/order header responsiveness */
+  /**/
   .menu-header, .order-header {
     flex-direction: column;
     gap: 1rem;
@@ -946,7 +945,7 @@ footer {
     padding: 30px 20px;
   }
   
-  /* Added for small screen cart items */
+  
   .cart-item {
     flex-direction: column;
     align-items: flex-start;
