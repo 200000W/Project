@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/styles.css';
 import logo from '../images/logo.jpg';
-// Cart Item Component
+
 const CartItem = ({ item, onRemove, onUpdateQuantity }) => (
     <div className="cart-item">
         <div className="cart-item-left">
@@ -45,7 +45,7 @@ const CartItem = ({ item, onRemove, onUpdateQuantity }) => (
     </div>
 );
 
-// Checkout Form Component
+
 const CheckoutForm = ({ total, onPlaceOrder }) => {
     const [formData, setFormData] = useState({
         name: '',
